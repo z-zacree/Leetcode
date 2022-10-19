@@ -54,7 +54,7 @@
 //     return false;
 // };
 
-const isSelfCrossing = (d: number[]): boolean => {
+const isSelfCrossing = (d) => {
     if (d.length < 4) return false;
 
     for (let i = 3; i < d.length; i++) {
